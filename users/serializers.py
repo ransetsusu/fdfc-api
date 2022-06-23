@@ -31,10 +31,7 @@ class UserRegistrationSerializer(serializers.ModelSerializer):
 class UserGetStartedSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
-        fields = (
-            'first_name', 'last_name', 'email',
-            'last_login', 'is_staff', 'is_active', 'date_joined',
-        )
+        exclude = ('password', 'id')
         extra_kwargs = {
             'is_staff': {'read_only': True},
             'is_active': {'read_only': True},
