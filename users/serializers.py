@@ -36,4 +36,5 @@ class UserGetStartedSerializer(serializers.ModelSerializer):
             'is_staff': {'read_only': True},
             'is_active': {'read_only': True},
             'date_joined': {'read_only': True},
+            'username': {'read_only': True}
         }
