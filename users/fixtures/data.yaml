@@ -1,0 +1,14 @@
+- model: auth.user
+  pk: 1
+  fields:
+    first_name: test111
+    last_name: test111
+    username: test111
+    password: testpass111
+- model: auth.user
+  pk: 2
+  fields:
+    username: test2222
+    first_name: test222
+    last_name: test222
+    password: testpass22

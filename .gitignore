@@ -1,0 +1,10 @@
+*.log
+*.pot
+*.pyc
+__pycache__
+.Python build/
+.coverage
+.cache
+.pytest_cache/
+
+.vscode/*

@@ -1,0 +1,7 @@
+[report]
+omit =
+    # omit asgi and wsgi as it is not modified
+    fdfc/asgi.py
+    fdfc/wsgi.py
+    # also omit manage.py as it is not yet modified
+    manage.py
