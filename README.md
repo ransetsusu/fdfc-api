@@ -10,6 +10,6 @@
 * run django test
 `python manage.py test`
 * run coverage:
-`coverate run --source='.' manage.py test`
+`coverage run --source='.' manage.py test`
 * coverage report:
 `coverage report`
